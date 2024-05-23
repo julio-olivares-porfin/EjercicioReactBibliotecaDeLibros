@@ -7,19 +7,31 @@ const libros = [
   {
     imagen: "https://picsum.photos/200",
     title: "Titulo1",
-    description: "Descripcion1"
+    description: "Descripcion1",
+    generos:[
+      {texto: "fantasía", color:"primary"},
+      {texto: "clásico", color:"secondary"},
+    ],
   },
 
   {
     imagen: "https://picsum.photos/200",
     title: "Titulo2",
-    description: "Descripcion2"
+    description: "Descripcion2",
+    generos:[
+      {texto: "fantasía", color:"primary"},
+      {texto: "clásico", color:"secondary"},
+    ],
   },
 
   {
     imagen: "https://picsum.photos/200",
     title: "Titulo3",
-    description: "Descripcion3"
+    description: "Descripcion3",
+    generos:[
+      {texto: "fantasía", color:"primary"},
+      {texto: "clásico", color:"secondary"},
+    ],
   },
 ]
   return (

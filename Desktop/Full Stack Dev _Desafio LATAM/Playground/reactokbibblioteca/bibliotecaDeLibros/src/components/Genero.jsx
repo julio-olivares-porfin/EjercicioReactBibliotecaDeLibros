@@ -1,0 +1,19 @@
+import React from "react";
+import { Badge } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css"
+
+function Genero({generos}) => {
+  return (
+    <div>
+      {
+        generos.map ((genero) => (
+          <Badge bg={genero.color} className="me-1">
+            {genero.texto}
+          </Badge>
+        ))
+      }
+    </div>
+  );
+};
+
+export default Genero;
